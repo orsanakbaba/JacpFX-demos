@@ -16,8 +16,11 @@
         </developer>
     </developers>
     <properties>
+       
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jacp.version>2.0.2</jacp.version>
+
+        <jacp.version>2.1</jacp.version>
+        <spring.version>5.2.3.RELEASE</spring.version>
     </properties>
     <build>
         <plugins>
@@ -143,5 +146,15 @@
             <artifactId>log4j</artifactId>
             <version>1.2.16</version>
         </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.jacpfx/JacpFXConcurrencyTools -->
+        <dependency>
+            <groupId>org.jacpfx</groupId>
+            <artifactId>JacpFXConcurrencyTools</artifactId>
+            <version>3.0-RC1</version>
+        </dependency>
     </dependencies>
+
+
 </project>
